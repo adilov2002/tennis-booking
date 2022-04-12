@@ -1,0 +1,117 @@
+body {
+	margin: 0px;
+	font-family: "apercu", sans-serif;
+	background-color: #e6f1e8;
+}
+
+/*
+	#8ee4af
+	#edf5e1
+	#5cdb95
+	#907163
+	#379683
+*/
+
+.main {
+	width: 100%;
+}
+
+.header-back {
+	width: 100%;
+	background-color: #b5d4bc;
+}
+
+.header {
+	width: 80%;
+	margin: auto;
+	min-height: 70px;
+	display: flex;
+	color: #637d9e;
+}
+
+.header a {
+	color: #637d9e;
+}
+
+.logo {
+	width: 20%;
+	min-height: 70px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+}
+
+
+.logo h4 {
+	width: 65%;
+}
+
+
+.links {
+	width: 60%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.links a {
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+.links a:hover {
+	cursor: pointer;
+}
+
+.settings {
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;	
+}
+
+.settings i {
+	font-size: 1vw;
+}
+
+
+.settings img {
+	border-radius: 50%;
+	width: 3vw;
+}
+
+.myhover:hover {
+	cursor: pointer;
+}
+
+
+.language {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.language select {
+	width: 50%;
+	background-color: transparent;
+	border: 0px;
+	font-size: 1vw;
+}
+
+select:focus {
+	outline: none;
+}
+
+option {
+	background-color: rgb(255, 200, 200);
+	border: 0px;
+	outline: none;
+}
+
+.content {
+	width: 100%;
+	min-height: 600px;
+}
+	
