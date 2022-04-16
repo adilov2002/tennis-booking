@@ -16,6 +16,8 @@ body {
 	width: 100%;
 }
 
+
+/*HEADER*/
 .header-back {
 	width: 100%;
 	background-color: #b5d4bc;
@@ -26,11 +28,12 @@ body {
 	margin: auto;
 	min-height: 70px;
 	display: flex;
-	color: #637d9e;
+	color: black;
 }
 
 .header a {
-	color: #637d9e;
+	color: black;
+	font-weight: bold;
 }
 
 .logo {
@@ -105,13 +108,105 @@ select:focus {
 }
 
 option {
-	background-color: rgb(255, 200, 200);
+	background-color: #e6f1e8;
 	border: 0px;
 	outline: none;
 }
 
+/*CONTENT*/
+
 .content {
 	width: 100%;
 	min-height: 600px;
+	margin-top: 20px;
 }
-	
+
+.content-width {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-left {
+	width: 30%;
+	height: 300px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 0px 4px 12px 0px rgba(34, 60, 80, 0.17);
+}
+
+.filter {
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.filter-stars {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;;
+}
+
+.filter input {
+	width: 100%;
+	margin: 0;
+}
+
+.filter-location select {
+	width: 70%;
+	margin: auto;
+}
+
+
+.content-right {
+	width: 68%;
+}
+
+.tennis-club {
+	height: 200px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 0px 4px 12px 0px rgba(34, 60, 80, 0.17);
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.club-left {
+	width: 30%;
+}
+
+.club-left img {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.club-right {
+	width: 70%;
+}
+
+.club-info {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.club-rank {
+	margin-right: 20px;
+}
+
+.club-details {
+	width: 100%;
+}
+
+.club-details p {
+	margin: 0;
+}
+
+.club-addtional {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
+}
