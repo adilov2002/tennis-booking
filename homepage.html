@@ -62,107 +62,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="content-right">
-					<div class="tennis-club">
-						<div class="club-left">
-							<img src="https://picsum.photos/200/200?golf" alt="">
-						</div>
-						<div class="club-right">
-							<div class="club-info">
-								<h4>Almaty tennis club</h4>
-								<div class="club-rank">
-									stars : 5
-								</div>
-							</div>
-							<div class="club-details">
-								<p style="color: grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, quae officiis soluta dolor enim odit consequuntur recusandae, ipsum earum distinctio. Repellendus voluptatem nulla consectetur magnam, voluptatibus tempora hic et omnis.</p>
-								<div class="club-addtional">
-									<h5>Located: r.Bostandyk, Baker st. 77</h5>
-									<h5 style="margin-right: 20px">Price: 14000tg/h</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tennis-club">
-						<div class="club-left">
-							<img src="https://picsum.photos/200/200?test" alt="">
-						</div>
-						<div class="club-right">
-							<div class="club-info">
-								<h4>Almaty tennis club</h4>
-								<div class="club-rank">
-									stars : 5
-								</div>
-							</div>
-							<div class="club-details">
-								<p style="color: grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, quae officiis soluta dolor enim odit consequuntur recusandae, ipsum earum distinctio. Repellendus voluptatem nulla consectetur magnam, voluptatibus tempora hic et omnis.</p>
-								<div class="club-addtional">
-									<h5>Located: r.Bostandyk, Baker st. 77</h5>
-									<h5 style="margin-right: 20px">Price: 14000tg/h</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tennis-club">
-						<div class="club-left">
-							<img src="https://picsum.photos/200/200?tennis" alt="">
-						</div>
-						<div class="club-right">
-							<div class="club-info">
-								<h4>Almaty tennis club</h4>
-								<div class="club-rank">
-									stars : 5
-								</div>
-							</div>
-							<div class="club-details">
-								<p style="color: grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, quae officiis soluta dolor enim odit consequuntur recusandae, ipsum earum distinctio. Repellendus voluptatem nulla consectetur magnam, voluptatibus tempora hic et omnis.</p>
-								<div class="club-addtional">
-									<h5>Located: r.Bostandyk, Baker st. 77</h5>
-									<h5 style="margin-right: 20px">Price: 14000tg/h</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tennis-club">
-						<div class="club-left">
-							<img src="https://picsum.photos/200/200?asdf" alt="">
-						</div>
-						<div class="club-right">
-							<div class="club-info">
-								<h4>Almaty tennis club</h4>
-								<div class="club-rank">
-									stars : 5
-								</div>
-							</div>
-							<div class="club-details">
-								<p style="color: grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, quae officiis soluta dolor enim odit consequuntur recusandae, ipsum earum distinctio. Repellendus voluptatem nulla consectetur magnam, voluptatibus tempora hic et omnis.</p>
-								<div class="club-addtional">
-									<h5>Located: r.Bostandyk, Baker st. 77</h5>
-									<h5 style="margin-right: 20px">Price: 14000tg/h</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tennis-club">
-						<div class="club-left">
-							<img src="https://picsum.photos/200/200?asef" alt="">
-						</div>
-						<div class="club-right">
-							<div class="club-info">
-								<h4>Almaty tennis club</h4>
-								<div class="club-rank">
-									stars : 5
-								</div>
-							</div>
-							<div class="club-details">
-								<p style="color: grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, quae officiis soluta dolor enim odit consequuntur recusandae, ipsum earum distinctio. Repellendus voluptatem nulla consectetur magnam, voluptatibus tempora hic et omnis.</p>
-								<div class="club-addtional">
-									<h5>Located: r.Bostandyk, Baker st. 77</h5>
-									<h5 style="margin-right: 20px">Price: 14000tg/h</h5>
-								</div>
-							</div>
-						</div>
-					</div>	
+				<div id='container' class="content-right">
+					
 				</div>
 			</div>
 		</div>
@@ -172,11 +73,80 @@
 	</div>
 
 	<script type="text/javascript">
-		var star1 = document.getElementById('star1');
-		var star2 = document.getElementById('star2');
-		var star3 = document.getElementById('star3');
-		var star4 = document.getElementById('star4');
-		var star5 = document.getElementById('star5');
+		let tennisClubs = [
+		{
+			'name': 'Almaty TC', 
+			'price': 14000, 
+			'address': 'Bostandyk 99', 
+			'img': 'https://picsum.photos/200/200?golf', 
+			'stars': 5
+		},
+		{
+			'name': 'Abay TC', 
+			'price': 10000, 
+			'address': 'Abay 77', 
+			'img': 'https://picsum.photos/200/200?abay', 
+			'stars': 4
+		},
+		{
+			'name': 'Almaly TC', 
+			'price': 11000, 
+			'address': 'Almaly 23', 
+			'img': 'https://picsum.photos/200/200?alm', 
+			'stars': 5
+		},
+		{
+			'name': 'Test TC', 
+			'price': 14000, 
+			'address': 'Gagarin 12', 
+			'img': 'https://picsum.photos/200/200?ttt', 
+			'stars': 2
+		},
+		{
+			'name': 'Oraz TC', 
+			'price': 10000, 
+			'address': 'Tim st 232', 
+			'img': 'https://picsum.photos/200/200?aaa', 
+			'stars': 4
+		}];
+
+		let sttt = `<div id='t-club' class="tennis-club">
+						<div class="club-left">
+							<img id="img1" src="https://picsum.photos/200/200?golf" alt="">
+						</div>
+						<div class="club-right">
+							<div class="club-info">
+								<h4>Almaty tennis club</h4>
+								<div class="club-rank">
+									stars : 5
+								</div>
+							</div>
+							<div class="club-details">
+								<p style="color: grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, quae officiis soluta dolor enim odit consequuntur recusandae, ipsum earum distinctio. Repellendus voluptatem nulla consectetur magnam, voluptatibus tempora hic et omnis.</p>
+								<div class="club-addtional">
+									<h5 class='myaddress'>Located: r.Bostandyk, Baker st. 77</h5>
+									<h5 style="margin-right: 20px">Price: 14000tg/h</h5>
+								</div>
+							</div>
+						</div>
+					</div>`;
+
+
+		let stttObject = new DOMParser().parseFromString(sttt, 'text/html').getElementById('t-club');
+
+		let container = document.getElementById('container');
+
+		for (let club of tennisClubs) {
+			console.log(club);
+			stttObject.querySelector('div > h4').innerText = club.name;
+			stttObject.querySelector('img').setAttribute('src', club.img);
+			stttObject.querySelector('.club-rank').innerText = 'stars : ' + club.stars;
+			stttObject.querySelector('.myaddress').innerText = 'Location: ' + club.address;
+			stttObject.querySelector('.club-addtional > h5:last-child').innerText = 'Price: ' + club.price + 'tg';
+			console.log(stttObject);
+			container.appendChild(stttObject.cloneNode(true));
+		}
+
 	</script>
 </body>
 </html>
